@@ -1,0 +1,35 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+} */
+
+/* 
+div{
+    display: block;
+    
+}
+#main{
+    padding: 380px;
+} */
+
+#chessboard {
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+}
+
+.white-square {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.black-square {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
